@@ -1,12 +1,12 @@
 ## Sets Counter (Pose Classification with Computer Vision)
 
-A computer vision–based rep counter that tracks exercises with clear up/down movement patterns (e.g., sit-ups, squats, toe touches, push-ups).
+A computer vision–based rep counter that tracks exercises with clear up/down movement patterns (e.g., sit-ups, squats, toe touches, push-ups).  
 It uses MediaPipe Pose for body landmark detection, a trained classifier (deadlift.pkl) to recognize exercise stages, and a Tkinter + CustomTkinter GUI to display live feedback and stats.
 
-✅ Counts reps in real-time
-✅ Detects UP / DOWN stages automatically
-✅ Toggle counting with a simple hand gesture (open palm)
-✅ Displays stage, reps, probability, and status in a clean dashboard
+✅ Counts reps in real-time  
+✅ Detects UP / DOWN stages automatically  
+✅ Toggle counting with a simple hand gesture (open palm)  
+✅ Displays stage, reps, probability, and status in a clean dashboard  
 
 ### Features
 

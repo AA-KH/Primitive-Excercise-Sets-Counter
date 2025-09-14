@@ -27,7 +27,7 @@ It uses MediaPipe Pose for body landmark detection, a trained classifier (deadli
 Install the dependencies:  
 pip install -r requirements.txt
 
-## Files in this repo
+### Files in this repo
 
 main.py → The main program (GUI + CV pipeline)
 
@@ -35,17 +35,16 @@ landmarks.py → Defines landmark names (required, copy as is)
 
 deadlift.pkl → Pre-trained classifier model (used to detect up/down stages)
 
-## Usage
+### Usage
 
 1. Clone the repo:  
-
-git clone https://github.com/yourusername/sets-counter.git  
-cd sets-counter
+    git clone https://github.com/yourusername/sets-counter.git  
+    cd sets-counter
 
 2. Make sure landmarks.py and deadlift.pkl are in the same directory as main.py.
 
 3. Run the app:  
-python app.py
+    python app.py
 
 4. The webcam feed will appear with pose tracking.
 
